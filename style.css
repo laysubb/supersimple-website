@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'lemon';
+    
+    
+    src: url('lemon_milk/LEMONMILK-Medium.otf') format('opentype');
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Oswald';
+    
+    
+}
+body{
+    background-image: linear-gradient(rgb(114, 207, 224), rgb(75, 146, 203), rgb(63, 126, 213));
+    margin: 0 auto;
+
+}
+header{
+    
+    background-color:#5c9ef5 ; 
+    height: 15%;
+    width: 100%;
+    margin: 0 auto;
+    top:0;
+    display: flex;
+    align-items: center;
+  
+   
+   
+}
+header h1{
+    flex:1;
+    font-family: 'lemon';
+    text-align: center;
+    color: whitesmoke;
+    font-size: 50px;
+    
+
+}
+
+
+header img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 7px;
+    width: auto;
+    height:auto;
+    border-radius: 20px;
+
+
+}
+/* .hoshi2{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 7px;
+    width: auto;
+    height:auto;
+    border-radius: 20px;
+} */
+
+h2{
+    margin: 35 60 0;
+    font-family: 'lemon';
+    color: #0d3b4c;
+    font-size: 35px;
+    text-align: center;
+    /* margin-top: 35px;
+    margin-bottom: 0px; */
+}
+    
+
+.monash{
+    font-weight: bold;
+    color: #043141;
+    
+}
+
+.svt{
+    
+    color: #061681;
+}
+.svt:hover,.monash:hover{
+    color: rgb(155, 85, 169);
+    
+}
+
+.bio{
+    margin: 0 60;
+    border: solid 6px whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+ul{
+ 
+    font-size: 23px;
+    display: inline-block;
+    text-align: start;
+}
+.bio img{
+    
+    align-items: flex-start;
+    
+    max-width: 50%;
+    max-height: 50%;
+    height: auto;
+    width: auto;
+    border-radius: 15px;
+    
+
+}
+.kpop{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 0 20px;
+    box-sizing: border-box;
+}
+.groupSvt, .dream{
+    width: 85%;
+    height: auto;
+    max-height: 400px; /* Ensure images don't exceed a specific height */
+    object-fit:contain; /* Ensure images cover the box while maintaining aspect ratio */
+    border-radius: 20px;
+    
+
+    
+}
+.jisung,.DK{
+    width:auto;
+    height:auto;
+    max-width: 400px;
+    max-height: 500px;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.dream{
+    margin: 0 0 20px;
+}
+
+h3,h4{
+    margin-top: 0;
+    font-family: 'lemon';
+    font-size: 35px;
+    font-weight: 0px;
+    text-align: center;
+    
+}
+h4{
+    font-family: 'Fira Sans Condensed';
+    font-size: 30px;
+    margin: 20px 30px;
+    font-weight: bold;
+}
+.group{
+    display: grid;
+    place-items: center;
+    margin: 0 20;
+    border: solid 6px whitesmoke;
+    border-radius: 20px;
+    align-items: center;
+    height: auto;
+    width: 700px;
+    
+}
+p{
+    margin:0 auto 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: antiquewhite;
+
+    
+}
+.box{
+    border-radius: 10px;
+    background-color: beige;
+    border: solid beige;
+    margin-bottom: 20%;
+    
+   
+}
+.box h5{
+    margin: 10 20;
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+    font-family: 'The Aesthetic Essential', sans-serif;
+    font-weight: 3000;
+}
+
+a{
+    text-decoration: none;
+}
+.box:hover{
+    text-decoration: none;
+    background-color: transparent;
+    
+}
