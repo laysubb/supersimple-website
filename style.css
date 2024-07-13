@@ -10,6 +10,7 @@
     
     
 }
+
 body{
     background-image: linear-gradient(rgb(114, 207, 224), rgb(75, 146, 203), rgb(63, 126, 213));
     margin: 0 auto;
@@ -140,6 +141,9 @@ ul{
 
 .dream{
     margin: 0 0 20px;
+}
+.mbti{
+    color: black;
 }
 
 h3,h4{
