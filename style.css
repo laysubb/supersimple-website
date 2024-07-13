@@ -2,7 +2,7 @@
     font-family: 'lemon';
     
     
-    src: url('lemon_milk/LEMONMILK-Medium.otf') format('opentype');
+    src: url('LEMONMILK-Medium.otf') format('opentype');
 }
 *{
     box-sizing: border-box;
